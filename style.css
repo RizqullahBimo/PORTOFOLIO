@@ -1,37 +1,105 @@
-
-body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #acacac;
-    margin: 100;
+*{
+    margin: 0;
     padding: 0;
 }
 
-center {
+.navigasi {
+    background-color: #3b4997;
+    width: 100%;
+    height: 70px;
+    padding-right: 10px;
+}
+.judul{
+    padding-top: 5px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.menu {
+    margin-left: 40%;
+    padding-top: 5px;
+    padding-left : 10px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    position: solid ;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu ul li a:hover{
+    color: lightblue;
+    font-style: italic;
+}
+.banner{
+    padding-top: 70px;
+    padding-left: 20px;
+    background-color: #3b6499;
     text-align: center;
-    margin-top: 20px;
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: solid;
+    width: 100%;
 }
 
-h1 {
-    color: #000;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-img {
+.banner img {
+    width: 300px;
     border-radius: 20%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 6px solid white;
+    box-shadow: 0 0 40px rgba(1, 1, 1, 10);
+    margin-top: 30px;
+}
+.banner h1{
+    padding-top: 10px;
+}
+.banner h2{
+    padding-top: 10px;
+}
+.banner button{
+    margin-top: 70px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner button:hover{
+    background-color: #3b6499;
+    border: 1px solid white;
+    color: white;
 }
 
-h2 {
-    color: #000;
-    text-decoration: underline;
-    
+.profil { 
+    padding-left: 5%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #3b6499;
+    width: 96%;
 }
 
-p {
-    color: #000;
-    margin: 2%;
-    padding-left: 1%;
+.table {
+    margin-left: 20%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(1, 1, 1, 10);
 }
+.table:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
 
 table {
     margin: 20px;
@@ -40,40 +108,92 @@ table {
     border: 3px solid #0f0d0d;
 }
 
-th, td {
+td {
     padding: 12px;
     text-align: left;
     border: 1px solid #020202;
 }
 
-ol {
-    list-style-type: decimal;
-    color: #000;
-    margin-left: 20px;
-    padding-left: 20px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.contact-list {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.contact-item {
-    margin: 0 20px;
+.pendidikan {
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    align-content: center;
+    margin-left: 50px;
+    text-decoration: solid;
 }
 
-.contact-item img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
+.sma{
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20%;
+    float:left;
+    border-radius: 10px;
+    
 }
+
+.kuliah{
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 7px;
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    float:left;
+    border-radius: 10px;
+
+}
+
+.sma:hover, .kuliah:hover {
+    background-color: #3b6499;
+    color: white;
+}
+
+.pengalaman {
+    margin-top: 35%;
+    text-align: center;
+    margin-left: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: solid;
+}
+
+.kotak {
+    margin-top: 50px;
+    margin-left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: solid;
+    box-shadow: 0 0 30px rgba(1, 1, 1, 10);
+}
+
+.kotak:hover {
+    background-color: #3b6499;
+    color: white;
+}
+.kontak {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    text-decoration: solid;
+    
+}
+
+.instagram{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.whatsapp {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.gmail{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
